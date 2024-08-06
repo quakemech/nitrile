@@ -15,7 +15,7 @@
 from setuptools import setup
 
 setup(name='nitrile',
-      version='0.1.0',
+      version='0.2.0',
       description='Latex Document Creation Library',
       url='https://github.com/quakemech/nitrile',
       author='Barrett Edwards',
