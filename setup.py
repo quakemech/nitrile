@@ -22,4 +22,5 @@ setup(name='nitrile',
       author_email='thequakemech@gmail.com',
       license='Apache2.0',
       packages=['nitrile'],
+      install_requires=[],
       zip_safe=False)
