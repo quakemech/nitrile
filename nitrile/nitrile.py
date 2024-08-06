@@ -737,80 +737,80 @@ import shutil
 
 
 _UNICODE_TO_LATEX_MAPPING = {
-                            u"\u0020":" ",
-                            u"\u0023":"\\#",
-                            u"\u00A0":" ",
-                            u"\u00A2":"{\\textcent}",
-                            u"\u00A3":"{\\textsterling}",
-                            u"\u00A9":"{\\textcopyright}",
-                            u"\u00AE":"{\\textregistered}",
-                            u"\u00B0":"{\\textdegree}",
-                            u"\u2011":"{\\textendash}",
-                            u"\u2013":"{\\textendash}",
-                            u"\u2014":"{\\textemdash}",
-                            u"\u2015":"{\\textemdash}",
-                            u"\u2018":"`",
-                            u"\u2019":"'",
-                            u"\u201C":"{\\textquotedblleft}",
-                            u"\u201D":"{\\textquotedblright}",
-                            u"\u2026":"{\\ldots}",
-                            u"\u202F":" ",
-                            u"&amp;":"\\&",
-                            u"&":"\\&",
-                            u"$":"\\$",
-                            u"\u0391":"$\\Alpha$",
-                            u"\u0392":"$\\Beta$",
-                            u"\u0393":"$\\Gamma$",
-                            u"\u0394":"$\\Delta$",
-                            u"\u0395":"$\\Epsilon$",
-                            u"\u0396":"$\\Zeta$",
-                            u"\u0397":"$\\Eta$",
-                            u"\u0398":"$\\Theta$",
-                            u"\u0399":"$\\Iota$",
-                            u"\u039A":"$\\Kappa$",
-                            u"\u039B":"$\\Lambda$",
-                            u"\u039E":"$\\Xi$",
-                            u"\u039F":"${\\rm O}$",
-                            u"\u03A0":"$\\Pi$",
-                            u"\u03A1":"$\\Rho$",
-                            u"\u03A3":"$\\Sigma$",
-                            u"\u03A4":"$\\Tau$",
-                            u"\u03A5":"$\\Upsilon$",
-                            u"\u03A6":"$\\Phi$",
-                            u"\u03A7":"$\\Chi$",
-                            u"\u03A8":"$\\Psi$",
-                            u"\u03A9":"$\\Omega$",
-                            u"\u03AD":"$\\acute{\\epsilon}$",
-                            u"\u03AE":"$\\acute{\\eta}$",
-                            u"\u03AF":"$\\acute{\\iota}$",
-                            u"\u03B0":"$\\acute{\\ddot{\\upsilon}}$",
-                            u"\u03B1":"$\\alpha$",
-                            u"\u03B2":"$\\beta$",
-                            u"\u03B3":"$\\gamma$",
-                            u"\u03B4":"$\\delta$",
-                            u"\u03B5":"$\\epsilon$",
-                            u"\u03B6":"$\\zeta$",
-                            u"\u03B7":"$\\eta$",
-                            u"\u03B8":"$\\texttheta$",
-                            u"\u03B9":"$\\iota$",
-                            u"\u03BA":"$\\kappa$",
-                            u"\u03BB":"$\\lambda$",
-                            u"\u03BC":"$\\mu$",
-                            u"\u03BD":"$\\nu$",
-                            u"\u03BE":"$\\xi$",
-                            u"\u03BF":"${\\rm o}$",
-                            u"\u03C0":"$\\pi$",
-                            u"\u03C1":"$\\rho$",
-                            u"\u03C2":"$\\varsigma$",
-                            u"\u03C3":"$\\sigma$",
-                            u"\u03C4":"$\\tau$",
-                            u"\u03C5":"$\\upsilon$",
-                            u"\u03C6":"$\\varphi$",
-                            u"\u03C7":"$\\chi$",
-                            u"\u03C8":"$\\psi$",
-                            u"\u03C9":"$\\omega$",
-                            u"\uFB01":"fi",
-                            u"\uFB02":"fl"
+                            "\u0020":" ",
+                            "\u0023":"\\#",
+                            "\u00A0":" ",
+                            "\u00A2":"{\\textcent}",
+                            "\u00A3":"{\\textsterling}",
+                            "\u00A9":"{\\textcopyright}",
+                            "\u00AE":"{\\textregistered}",
+                            "\u00B0":"{\\textdegree}",
+                            "\u2011":"{\\textendash}",
+                            "\u2013":"{\\textendash}",
+                            "\u2014":"{\\textemdash}",
+                            "\u2015":"{\\textemdash}",
+                            "\u2018":"`",
+                            "\u2019":"'",
+                            "\u201C":"{\\textquotedblleft}",
+                            "\u201D":"{\\textquotedblright}",
+                            "\u2026":"{\\ldots}",
+                            "\u202F":" ",
+                            "&amp;":"\\&",
+                            "&":"\\&",
+                            "$":"\\$",
+                            "\u0391":"$\\Alpha$",
+                            "\u0392":"$\\Beta$",
+                            "\u0393":"$\\Gamma$",
+                            "\u0394":"$\\Delta$",
+                            "\u0395":"$\\Epsilon$",
+                            "\u0396":"$\\Zeta$",
+                            "\u0397":"$\\Eta$",
+                            "\u0398":"$\\Theta$",
+                            "\u0399":"$\\Iota$",
+                            "\u039A":"$\\Kappa$",
+                            "\u039B":"$\\Lambda$",
+                            "\u039E":"$\\Xi$",
+                            "\u039F":"${\\rm O}$",
+                            "\u03A0":"$\\Pi$",
+                            "\u03A1":"$\\Rho$",
+                            "\u03A3":"$\\Sigma$",
+                            "\u03A4":"$\\Tau$",
+                            "\u03A5":"$\\Upsilon$",
+                            "\u03A6":"$\\Phi$",
+                            "\u03A7":"$\\Chi$",
+                            "\u03A8":"$\\Psi$",
+                            "\u03A9":"$\\Omega$",
+                            "\u03AD":"$\\acute{\\epsilon}$",
+                            "\u03AE":"$\\acute{\\eta}$",
+                            "\u03AF":"$\\acute{\\iota}$",
+                            "\u03B0":"$\\acute{\\ddot{\\upsilon}}$",
+                            "\u03B1":"$\\alpha$",
+                            "\u03B2":"$\\beta$",
+                            "\u03B3":"$\\gamma$",
+                            "\u03B4":"$\\delta$",
+                            "\u03B5":"$\\epsilon$",
+                            "\u03B6":"$\\zeta$",
+                            "\u03B7":"$\\eta$",
+                            "\u03B8":"$\\texttheta$",
+                            "\u03B9":"$\\iota$",
+                            "\u03BA":"$\\kappa$",
+                            "\u03BB":"$\\lambda$",
+                            "\u03BC":"$\\mu$",
+                            "\u03BD":"$\\nu$",
+                            "\u03BE":"$\\xi$",
+                            "\u03BF":"${\\rm o}$",
+                            "\u03C0":"$\\pi$",
+                            "\u03C1":"$\\rho$",
+                            "\u03C2":"$\\varsigma$",
+                            "\u03C3":"$\\sigma$",
+                            "\u03C4":"$\\tau$",
+                            "\u03C5":"$\\upsilon$",
+                            "\u03C6":"$\\varphi$",
+                            "\u03C7":"$\\chi$",
+                            "\u03C8":"$\\psi$",
+                            "\u03C9":"$\\omega$",
+                            "\uFB01":"fi",
+                            "\uFB02":"fl"
                             }
 """A global dictionary used to substitute special unicode characters into latex character commands"""
 
@@ -826,7 +826,7 @@ def unicode_to_latex(unicode_str):
     """
 
     # Post process some unicode characters into latex symbols
-    keys = _UNICODE_TO_LATEX_MAPPING.keys()
+    keys = list(_UNICODE_TO_LATEX_MAPPING.keys())
     for k in keys:
         unicode_str = unicode_str.replace(k,_UNICODE_TO_LATEX_MAPPING[k])
 
@@ -899,7 +899,7 @@ class Document():
             self.commands.append(item)
         elif isinstance(item, Body):
             self.body.append(item)
-        elif isinstance(item, basestring):
+        elif isinstance(item, str):
             self.body.append(Content(item))
         else:
             msg = 'Attempted to add unsupported object to document'
@@ -971,8 +971,8 @@ class Document():
                 
         # STEP 4
         # write out tex string to file in temp directory        
-        with open(tex_filepath, 'w') as fp:
-            fp.write(tex.encode('utf8'))
+        with open(tex_filepath, 'w', encoding='utf-8') as fp:
+            fp.write(tex)
                 
         # STEP 5
         # run pdflatex twice to generate pdf
@@ -981,15 +981,15 @@ class Document():
         try:
             rv = subprocess.check_output(cmd)
         except subprocess.CalledProcessError as e:
-            print "PDF build failed: " + tex_filepath + " Return Code: " + \
-                    str(e.returncode) + " Error Message: " + str(e.output)
+            print("PDF build failed: " + tex_filepath + " Return Code: " + \
+                    str(e.returncode) + " Error Message: " + str(e.output))
 
         # run build a second time to resolve all labels
         try:
             rv = subprocess.check_output(cmd)
         except subprocess.CalledProcessError as e:
-            print "PDF build failed: " + tex_filepath + " Return Code: " + \
-                    str(e.returncode) + " Error Message: " + str(e.output)
+            print("PDF build failed: " + tex_filepath + " Return Code: " + \
+                    str(e.returncode) + " Error Message: " + str(e.output))
                 
         # STEP 6
         # remove the build files
@@ -1011,8 +1011,8 @@ class Document():
                 dst = os.path.join(filepath,pdf_filename)
                 
                 if os.path.exists(dst) and force is False:
-                    print "Error: Cannot move PDF file to requested location. '\
-                          'File already exists: " + dst
+                    print("Error: Cannot move PDF file to requested location. '\
+                          'File already exists: " + dst)
                 else:
                     shutil.move(src,dst)
                     pdf_filepath = dst 
@@ -1021,8 +1021,8 @@ class Document():
                 dst = os.path.expanduser(filepath)
             
                 if os.path.exists(dst) and force is False:
-                    print "Error: Cannot move PDF file to requested location. '\
-                          'File already exists: " + dst
+                    print("Error: Cannot move PDF file to requested location. '\
+                          'File already exists: " + dst)
                 else:
                     shutil.move(src,dst)
                     pdf_filepath = dst       
@@ -1103,26 +1103,26 @@ class Document():
             l.append(c._tex())
         
         # STEP 2: Begin body 
-        l.append(u'\\begin{document}\n')
+        l.append('\\begin{document}\n')
         
         # STEP 3: Generate Body
         for b in self.body:
             l.extend(b._tex())     
         
         # STEP 4: Generate footer
-        l.append(u'\n\\end{document}')
+        l.append('\n\\end{document}')
         
         # Consolidate into a single string         
-        tex = u''.join(l)
+        tex = ''.join(l)
         
         # if a filename was passed then write out the tex to a file
         if filename is not None:
             filepath = os.path.expanduser(filename)
             if os.path.exists(filepath) and not force:
-                print "Error: file exists:", filepath
+                print("Error: file exists:", filepath)
             else:
-                with open(filepath, 'w') as fp:
-                    fp.write(tex.encode('utf8'))
+                with open(filepath, 'w', encoding='utf-8') as fp:
+                    fp.write(tex)
                     
                 if open_when_done:
                     if sys.platform.startswith('darwin'):
@@ -1205,7 +1205,7 @@ class _DocumentClass():
         strings in Latex formatting. 
         """
         
-        s = u'\\documentclass[' + u','.join(self.options) + ']{' + \
+        s = '\\documentclass[' + ','.join(self.options) + ']{' + \
             self.classname + '}\n'
         
         return s
@@ -1244,9 +1244,9 @@ class Package():
         strings in Latex formatting. 
         """
         
-        s = u'\\usepackage'
+        s = '\\usepackage'
         if self.options is not None:
-            s += u'[' + u','.join(self.options) + u']'
+            s += '[' + ','.join(self.options) + ']'
         s = s + '{%s}\n' % self.name
         
         return s
@@ -1273,9 +1273,11 @@ class Command():
     
     def __init__(   self, 
                     name, 
+					parameters=[],
                     options=[]):
                     
         self.name = name
+        self.parameters = parameters
         self.options = options
     
         return
@@ -1285,7 +1287,9 @@ class Command():
         strings in Latex formatting. 
         """
         
-        s = u'\\' + self.name
+        s = '\\' + self.name
+        for p in self.parameters:
+            s += '[' + p + ']'
         for o in self.options:
             s += '{' + o + '}'
         s += '\n'
@@ -1347,7 +1351,7 @@ class Body():
                 
         if isinstance(item, Body):
             self.body.append(item)
-        elif isinstance(item, basestring):
+        elif isinstance(item, str):
             self.body.append(Content(item))
         else:
             msg = 'Attempted to add unsupported object to Body object'
@@ -1516,6 +1520,7 @@ class Tag(Body):
     def __init__(   self, 
                     name, 
                     options=[],
+					parameters=[],
                     prenewlines=0,
                     postnewlines=0):
                     
@@ -1526,6 +1531,7 @@ class Tag(Body):
         self.postnewlines = postnewlines
         self.name = name
         self.options = options
+        self.parameters = parameters
         
         return    
     
@@ -1540,7 +1546,9 @@ class Tag(Body):
             l.append('\n')
         
         # Begin the environment
-        tag = u'\\' + self.name 
+        tag = '\\' + self.name 
+        for p in self.parameters:
+            tag += '[' + p + ']'
         for o in self.options:
             tag += '{' + o + '}'
         l.append(tag)
@@ -2525,21 +2533,21 @@ class SelfTest():
             try: 
                 self.args['testnum'] = int(self.args['testnum'])
             except ValueError as e: 
-                print 'Error: Invalid test num. '\
+                print('Error: Invalid test num. '\
                       'Entry must be a number' + \
-                      e.message
+                      e.message)
                 quit()
         
         if self.args['testnum'] > (len(self.tests)-1):
-            print "Error: Requested test num is out of range. '\
+            print("Error: Requested test num is out of range. '\
                   'Num available tests: " + \
-                  str(len(self.tests))
+                  str(len(self.tests)))
             quit()
         
         if self.args['list']:
-            print 'Available tests:'
+            print('Available tests:')
             for i,t in enumerate(self.tests):
-                print str(i) + ": " + str(t.__name__)[6:]
+                print(str(i) + ": " + str(t.__name__)[6:])
             
             quit()
                 
@@ -2558,7 +2566,7 @@ class SelfTest():
                             force=self.args['force'])
         
             if self.args['print']:
-                print tex
+                print(tex)
                 
         # generate PDF
         if self.args['pdf']:
