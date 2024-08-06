@@ -720,9 +720,9 @@
 __author__ = "Barrett Edwards"
 __maintainer__ = "Barrett Edwards"
 __copyright__ = "Copyright 2016"
-__license__ = "MIT"
-__version__ = "0.1.0"
-__email__ = "BarrettEdwardsOSS@gmail.com"
+__license__ = "Apache2.0"
+__version__ = "0.2.1"
+__email__ = "thequakemech@gmail.com"
 __status__ = "Development"
 
 
